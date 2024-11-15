@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #333;
+        }
+
+        
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .header-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        
+        .hero {
+            background-color: #1f2937;
+            color: white;
+            padding: 4rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            color: #d1d5db;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-image img{
+            flex: 1;
+            background-color: #6b7280;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+        }
+
+        
+        .info-section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .info-section h2 {
+            margin-bottom: 2rem;
+        }
+
+        .info-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .info-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+        .info-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+
+        .card-image {
+            border: 2px solid #3b82f6;
+            border-radius: 8px;
+            /*min-width: 200px;
+            max-width: 250px;*/
+            height: 250px;
+            margin-bottom: 1rem;
+        }
+
+        .card-image img{
+           /* min-width: 200px;
+            max-width: 240px;*/
+            height: 230px;
+            width: 210px;
+            margin-bottom: 1rem;
+        }
+
+
+        
+        .quote-section {
+            background-color: #e5e7eb;
+            padding: 4rem 2rem;
+        }
+
+        .quote-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 1rem;
+        }
+
+        .quote-author {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        
+        .cta-section {
+            padding: 4rem 2rem;
+        }
+
+        .cta-container {
+            background-color: #3b82f6;
+            color: white;
+            padding: 3rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        
+        .button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button.white {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+
+        
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">HEALTH HAVEN</div>
+        <nav class="header-links">
+            <a href="#">Tumukunde</a>
+            <a href="#">Reine</a>
+            <a href="#">Hyguette_24940</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Life Through Wellness</h1>
+            <p>Join our community dedicated to holistic health, where expert insights meet practical wellness solutions. Discover the perfect balance of mind, body, and spirit.</p>
+            <a href="#" class="button">Sign up</a>
+        </div>
+        <div class="hero-image">
+            <img src ="/assets/pexels-foteros-352505.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="info-section">
+        <h2>WEEKLY WELLNESS FOCUS</h2>
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="card-image"><img src="/fitnes icon.png" alt=""></div>
+                <p>week 1:Building Strength & Endurance</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/meditation icon.png" alt=""></div>
+                <p>week 2:Finding Inner Peace</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/nutrition icon.png"></div>
+                <p>week 3:Fueling Your Body Right</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/sleep icon.png" alt=""></div>
+                <p>week 4: Mastering Restorative Rest </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="quote-container">
+            <p class="quote">"Your health is an investment, not an expense. The choices we make today shape the life we'll live tomorrow."</p>
+            <p class="quote-author">- Wellness Wisdom</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our latest podcasts by clicking that button right over there!</p>
+            </div>
+            <a href="#" class="button white">Sign up</a>
+        </div>
+    </section>
+
+    <footer>
+        Copyright © Health Haven 2024
+    </footer>
+</body>
+</html>

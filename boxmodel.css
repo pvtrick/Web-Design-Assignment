@@ -1,0 +1,18 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #21f33d;
+    color: rgb(255, 255, 255);
+    padding: 20px solid orange;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 70px;
+}
+
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #1c8cd6;
+    margin: 30px;
+}

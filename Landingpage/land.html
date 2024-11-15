@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #333;
+        }
+
+        
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .header-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        
+        .hero {
+            background-color: #1f2937;
+            color: white;
+            padding: 4rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            color: #d1d5db;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-image img{
+            flex: 1;
+            background-color: #6b7280;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+        }
+
+        
+        .info-section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .info-section h2 {
+            margin-bottom: 2rem;
+        }
+
+        .info-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .info-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+        .info-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+
+        .card-image {
+            border: 2px solid #3b82f6;
+            border-radius: 8px;
+            height: 250px;
+            margin-bottom: 1rem;
+        }
+
+        .card-image img{
+            height: 230px;
+            width: 210px;
+            margin-bottom: 1rem;
+        }
+
+
+        
+        .quote-section {
+            background-color: #e5e7eb;
+            padding: 4rem 2rem;
+        }
+
+        .quote-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 1rem;
+        }
+
+        .quote-author {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        
+        .cta-section {
+            padding: 4rem 2rem;
+        }
+
+        .cta-container {
+            background-color: #3b82f6;
+            color: white;
+            padding: 3rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        
+        .button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button.white {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+
+        
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">THE REAL REVIEW</div>
+        <nav class="header-links">
+            <a href="#">INEZA</a>
+            <a href="#">GAKWAYA</a>
+            <a href="#">Ghislain_25346</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>LATEST BENEFICIAL BOOKS</h1>
+            <p>Be with us in our daily podcasts where we talk on the most impactful books of all time</p>
+            <a href="#" class="button">Sign up</a>
+        </div>
+        <div class="hero-image">
+            <img src ="/assets/pexels-foteros-352505.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="info-section">
+        <h2>CHECK OUT FOR OUR UPCOMING BOOKS REVIEWS</h2>
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="card-image"><img src="section1.jpg" alt=""></div>
+                <p>week 1:John Bunyan's meaning of christianity</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/assets/dagger.jpg" alt=""></div>
+                <p>week 2:True leadership beating the numbers</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/assets/bed.jpg"></div>
+                <p>week 3:IF you Really want to change the world start off by making your bed</p>
+            </div>
+            <div class="info-card">
+                <div class="card-image"><img src="/assets/intelligence.jpg" alt=""></div>
+                <p>week 4: INTELLIGENCE a real control of emotions </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="quote-container">
+            <p class="quote">"Think before you speak...READ BEFORE YOU THINK"</p>
+            <p class="quote-author">Fran Lebowitz</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our latest podcasts by clicking that button right over there!</p>
+            </div>
+            <a href="#" class="button white">Sign up</a>
+        </div>
+    </section>
+
+    <footer>
+        Copyright © The REAL REVIEW 2024
+    </footer>
+</body>
+</html>
